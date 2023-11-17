@@ -1,0 +1,81 @@
+Basic Commands
+
+File Operations
+ls - List directory contents.
+Example: ls -l (detailed list including permissions)
+cp - Copy files and directories.
+Example: cp source.txt destination.txt
+mv - Move or rename files and directories.
+Example: mv oldname.txt newname.txt
+rm - Remove files or directories.
+Example: rm myfile.txt
+touch - Create a new empty file or update the timestamp of an existing file.
+Example: touch newfile.txt
+Directory Operations
+mkdir - Create a new directory.
+Example: mkdir newdir
+rmdir - Remove an empty directory.
+Example: rmdir olddir
+cd - Change the current directory.
+Example: cd /home/user
+File Permissions and Ownership
+
+Changing File Permissions
+chmod - Change file mode bits.
+Example: chmod 755 script.sh (read, write, execute for owner; read and execute for others)
+Changing File Ownership
+chown - Change file owner.
+Example: chown user1 file.txt
+chgrp - Change group ownership.
+Example: chgrp group1 file.txt
+Understanding Permissions
+Explain the permission notation (-rw-r--r--, etc.)
+User and Group Management
+
+User Operations
+useradd - Add a new user.
+Example: useradd newuser
+userdel - Delete a user.
+Example: userdel olduser
+usermod - Modify a user account.
+Example: usermod -aG sudo newuser (add user to sudo group)
+Group Operations
+groupadd - Add a new group.
+Example: groupadd newgroup
+groupdel - Delete a group.
+Example: groupdel oldgroup
+Networking Commands
+
+Basic Network Utilities
+ping - Check connectivity with a host.
+Example: ping google.com
+ifconfig / ip - Display or configure network interfaces.
+Example: ip addr show
+System Monitoring and Performance
+
+Viewing System Information
+top - Display real-time system processes.
+Example: Just run top
+df - Report file system disk space usage.
+Example: df -h (human-readable format)
+free - Display memory usage.
+Example: free -m (in megabytes)
+Package Management
+
+Using Package Managers (e.g., apt, yum)
+apt-get (for Debian-based systems)
+Example: sudo apt-get update (update package list)
+yum (for Red Hat-based systems)
+Example: sudo yum install nginx (install nginx)
+Job Scheduling
+
+Cron Jobs
+crontab - Schedule periodic tasks.
+Example: crontab -e (edit crontab file)
+Scripting and Automation
+
+Brief examples of simple Bash scripts for automation.
+Security and Firewalls
+
+Basic iptables commands and examples.
+Setting up simple firewall rules.
